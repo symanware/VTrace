@@ -1,0 +1,17 @@
+{
+  "lotCode": "16ZFYVPN",
+  "volume": 10350,
+  "description": "2016 Yarra Valley Pinot Noir",
+  "tankCode": "T25-01",
+  "productState": {
+    "id": 1,
+    "description": "Ready to bottle"
+  },
+  "owner": {
+    "id": 1,
+    "name": "zane",
+    "emailAddress": "zane@vintrace.com"
+  }
+}
+
+
