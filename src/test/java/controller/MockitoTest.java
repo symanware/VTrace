@@ -65,10 +65,10 @@ public class MockitoTest {
     @Test
     public void testWineDetailsAreValid() {
         when(wineRepository.findById(any())).thenReturn(getWineObject()).thenReturn(getWineObject2());
-        Wine wine = wineService.findWineById(2323);
+        Wine wine = wineService.findWineById(1);
         Assert.assertEquals("Bingo", wine.getLotCode());
 
-        Wine wine2 = wineService.findWineById(2323);
+        Wine wine2 = wineService.findWineById(1);
         Assert.assertEquals("Bingo", wine.getLotCode());
     }
 

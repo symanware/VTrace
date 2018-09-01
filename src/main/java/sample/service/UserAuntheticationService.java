@@ -24,7 +24,7 @@ public class UserAuntheticationService {
         if(userName == null)
             throw new UsernameNotFoundException("Please provide user name");
 
-        User user = userReository.findUserByName(userName);
+        User user = userReository.findUserByUsername(userName);
         if(user == null)
             throw new UsernameNotFoundException("Not a authorized User");
 
